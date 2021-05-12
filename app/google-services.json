@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851808864553",
+    "project_id": "drawaway-5b7a2",
+    "storage_bucket": "drawaway-5b7a2.appspot.com",
+    "firebase_url": "https://drawaway-5b7a2-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851808864553:android:5e5f637cd84f91c1bf4f38",
+        "android_client_info": {
+          "package_name": "com.example.drawawaytest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851808864553-o94vq33lgfo4kfrh1cmb4s351elvn6fr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7uRuusAeLTBsm-dfUX_CCf731lrhclbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851808864553-o94vq33lgfo4kfrh1cmb4s351elvn6fr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLoginRegistrationActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="363dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/default_drawaway_foreground" />
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Well, Hej på dig"
+        android:textColor="#000"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/antic"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Join the familj"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logga in"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="registrera"
+        app:backgroundTint="#000000" />
+
+</LinearLayout>
